@@ -1,0 +1,8 @@
+import sys, len_sys, len_contr, len_error, len_adc 
+
+while 1:
+	val1 = len_adc.getChVal_er(len_contr.DEV_ADC, 10, 1)
+	val2 = len_adc.getChVal_er(len_contr.DEV_ADC, 10, 2)
+	val3 = len_adc.getChVal_er(len_contr.DEV_ADC, 10, 3)
+	print "value1:", val, " value2:", val2, " value3:", val3 
+	sys.wait(500)

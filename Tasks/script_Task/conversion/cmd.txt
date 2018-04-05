@@ -1,0 +1,3 @@
+python pmImgCreator.py -f pmfeatures.py -c -u --native-file=inc/py_usr_native.c --memspace=flash -o inc/py_usr.h main.py
+python pmImgCreator.py -f pmfeatures.py -c -s --native-file=inc/py_std_native.c --memspace=flash -o inc/py_std.h Modules/len_system.py Modules/len_controller.py Modules/len_digital_io.py
+python pmImgCreator.py -f pmfeatures.py -c -s --native-file=inc/py_std_native.c --memspace=flash -o inc/py_std.h lib/__bi.py lib/dict.py lib/dict.py lib/func.py lib/string.py lib/list.py lib/sizeof.py lib/sys.py lib/sizeof.py Modules/len_system.py Modules/len_controller.py Modules/len_digital_io.py 
